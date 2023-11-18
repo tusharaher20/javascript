@@ -1,0 +1,1 @@
+"use strict" // this syntax tell javascript to treat all the further code as newer version
