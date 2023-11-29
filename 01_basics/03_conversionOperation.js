@@ -10,6 +10,11 @@
 // let isLoggedIn = 1; //true
 // let isLoggedIn = 0; //false
  //let isLoggedIn = ""; //false
- let isLoggedIn = "tushar"; //true
+ let isLoggedIn = "3"; //true
 let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
+
+let someNumber = 33;
+let stringNumber = String(someNumber)
+console.log(stringNumber)
+console.log(typeof stringNumber)
