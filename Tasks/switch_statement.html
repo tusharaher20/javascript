@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const COLOR_RED = 0;
+        const COLOR_GREEN = 1;
+        const COLOR_BLUE = 2;
+
+        function getColorName(color) {
+            switch (color) {
+                case COLOR_RED:
+                    return "Red";
+                case COLOR_GREEN:
+                    return "Green";
+                case COLOR_BLUE:
+                    return "Blue";
+                default:
+                    return "Unknown";
+            }
+        }
+
+        let Color = prompt('write your number from zero one and two.',)
+        let colorcode = +Color;
+        let got_theColor = getColorName(colorcode)
+        alert(got_theColor);
+
+        // console.log(getColorName(COLOR_RED)); // Red
+        // console.log(getColorName(3)); // Unknown
+
+
+
+    </script>
+</body>
+
+</html>
